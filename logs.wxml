@@ -1,0 +1,8 @@
+
+<view class='attrs' wx:for='{{datalist}}' wx:for-item='item_1' wx:for-index='key_1'>
+      <view class='attrs' wx:for='{{item_1}}' wx:for-item='item_2' wx:for-index='key_2'>
+        <view wx:if="{{item_2!='' && key_2!='_id'}}">
+          {{key_2}}:{{item_2}} 
+        </view>
+      </view>
+</view>
